@@ -1,20 +1,26 @@
 # React Movie Search App
 
 ## About 
-React Movie Search App is a react app that permets it's users to search for a movie through it. To achive this it interracts with __The Movie Database (TMDB)__'s API. 
+React Movie Search App is a react app that enables users to search for desired movies through the platform's interractive search engine. 
+The app interacts with __The Movie Database (TMDB)__'s API in order to give back the user all necessary information concerning the searched key word. 
 
-Quick start:
+## How to get the app
+1. Clone this repository locally using the command ```git clone git@github.com:tchassijordan/React-Movie-Search-App.git```
+
+**Note**: The above command is for a user who uses *SSH* as their mode of authentification between git locally and GitHub.
+
+If you rather use *Http* with personal token for authentification then rather use this command
+
+```https://github.com/tchassijordan/React-Movie-Search-App.git```
+
+2. In your local environment place your terminal head to be in the cloned repository 
+
+3. Run the following commands to install all required dependencies and run the app.
 
 ```
 $ yarn # npm install
-$ yarn build # npm run build
+$ yarn start # npm start
 ````
 
-## Development
 
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
-
+The app should be running successfully on port 3000. If the browser window doesn't open automatically. Open a new tab and enter ```http://localhost:3000/```
